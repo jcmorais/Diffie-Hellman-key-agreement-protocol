@@ -3,8 +3,8 @@ Diffie–Hellman key exchange (D–H) is a specific method of securely exchangin
 
 Recall the Diffie-Hellman protocol:
 
-Alice → Bob : g^(x)
+Server → Client : p, g, g^(x)
 
-Bob → Alice : g^(y)
+Client → Server : g^(y)
 
-Alice, Bob : Key = g^(xy)
+Server, Client : Key = g^(xy)
