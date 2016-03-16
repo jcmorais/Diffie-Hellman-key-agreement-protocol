@@ -5,6 +5,6 @@ Recall the Diffie-Hellman protocol:
 
 Server → Client : p, g, g^(x)
 
-Client → Server : g^(y)
+Server ← Client : g^(y)
 
 Server, Client : Key = g^(xy)
